@@ -102,4 +102,5 @@ img {
   background-color: blue;
   margin: 0px;
   padding: 0px;
+  z-index: 9999;
 }
