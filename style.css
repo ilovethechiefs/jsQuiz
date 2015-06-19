@@ -29,6 +29,15 @@ html, body {
   width: 85%;
   height: 15%;
   border: solid;
+  background: blue;
+  text-align: center;
+  opacity: 0;
+}
+
+#questionDiv p {
+  position: relative;
+  color: white;
+  font-size: 24px
 }
 
 #answerList{
@@ -40,6 +49,12 @@ html, body {
   border: solid;
   list-style-type: none;
   padding: 0;
+  text-align: center;
+  opacity: 0;
+}
+
+#answerList li {
+  left: -110%;
 }
 
 .answers {
@@ -96,11 +111,25 @@ img {
 #newQuestion {
   position: absolute;
   float: left;
-  top: 14%;
-  width: 75%;
-  height: 85%;
-  background-color: blue;
+  left: 39.25%;
+  top: 51.25%;
+  width: 0%;
+  height: 0%;
   margin: 0px;
   padding: 0px;
+  background: blue;
   z-index: 9999;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#newQuestion p {
+  position: relative;
+  top: 40%;
+  color: white;
+  font-size: 24px
+}
+
+#clock img {
+  opacity: 0;
 }
